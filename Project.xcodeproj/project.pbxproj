@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9223029E2B7A4CA20068F285 /* RecommendedGenres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9223029D2B7A4CA20068F285 /* RecommendedGenres.swift */; };
 		922A07072B768555000C6A6C /* FeaturedPlaylistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922A07062B768555000C6A6C /* FeaturedPlaylistResponse.swift */; };
+		92365C292B82A8070068EEDE /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92365C282B82A8070068EEDE /* NewReleaseCollectionViewCell.swift */; };
+		92365C2B2B82A9B20068EEDE /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92365C2A2B82A9B20068EEDE /* FeaturedPlaylistCollectionViewCell.swift */; };
+		92365C2D2B82A9CB0068EEDE /* RecommendedTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92365C2C2B82A9CB0068EEDE /* RecommendedTrackCollectionViewCell.swift */; };
 		9240E30B2B63EDCA00FE305E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240E30A2B63EDCA00FE305E /* Extensions.swift */; };
 		9281FD052B6C32FB00580685 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9281FD042B6C32FB00580685 /* SettingsModels.swift */; };
 		92A645282B5FE7F200842504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A645272B5FE7F200842504 /* AppDelegate.swift */; };
@@ -43,6 +46,9 @@
 		6AA3AE5B2FC12E36198C2D98 /* Pods_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9223029D2B7A4CA20068F285 /* RecommendedGenres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenres.swift; sourceTree = "<group>"; };
 		922A07062B768555000C6A6C /* FeaturedPlaylistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistResponse.swift; sourceTree = "<group>"; };
+		92365C282B82A8070068EEDE /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		92365C2A2B82A9B20068EEDE /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		92365C2C2B82A9CB0068EEDE /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
 		9240E30A2B63EDCA00FE305E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9281FD042B6C32FB00580685 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 		92A645242B5FE7F200842504 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +104,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		92365C272B82A7C80068EEDE /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				92365C282B82A8070068EEDE /* NewReleaseCollectionViewCell.swift */,
+				92365C2A2B82A9B20068EEDE /* FeaturedPlaylistCollectionViewCell.swift */,
+				92365C2C2B82A9CB0068EEDE /* RecommendedTrackCollectionViewCell.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
 		92A6451B2B5FE7F200842504 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +158,7 @@
 		92A645422B5FED3200842504 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				92365C272B82A7C80068EEDE /* Browse */,
 				92A645322B5FE7F400842504 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -342,6 +359,7 @@
 			files = (
 				92A6452C2B5FE7F200842504 /* HomeViewController.swift in Sources */,
 				92A6455D2B5FEE9600842504 /* SearchResultsViewController.swift in Sources */,
+				92365C2D2B82A9CB0068EEDE /* RecommendedTrackCollectionViewCell.swift in Sources */,
 				92A6454D2B5FEE1D00842504 /* LibraryViewController.swift in Sources */,
 				92A645632B5FEEF800842504 /* HapticsManager.swift in Sources */,
 				92B09A442B6918730031AD79 /* AuthResponse.swift in Sources */,
@@ -362,7 +380,9 @@
 				92A6456B2B5FEF3400842504 /* UserProfile.swift in Sources */,
 				9240E30B2B63EDCA00FE305E /* Extensions.swift in Sources */,
 				92A6455B2B5FEE8500842504 /* PlaylistViewController.swift in Sources */,
+				92365C2B2B82A9B20068EEDE /* FeaturedPlaylistCollectionViewCell.swift in Sources */,
 				92A645532B5FEE4C00842504 /* WelcomeViewController.swift in Sources */,
+				92365C292B82A8070068EEDE /* NewReleaseCollectionViewCell.swift in Sources */,
 				92CBAF5C2B728325004E9872 /* APIImage.swift in Sources */,
 				92A645552B5FEE5D00842504 /* SettingsViewController.swift in Sources */,
 				92CBAF5A2B728173004E9872 /* NewReleasesResponse.swift in Sources */,
