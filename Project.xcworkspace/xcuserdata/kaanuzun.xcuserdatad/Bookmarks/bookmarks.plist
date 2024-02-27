@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>270</string>
+					<string>291</string>
 					<key>StartingColumnNumber</key>
-					<string>59</string>
+					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>269</string>
+					<string>290</string>
 					<key>Timestamp</key>
-					<string>730329020.15475</string>
+					<string>730721908.0391721</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -34,12 +34,12 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>
+				<string>      let verticalGroup = NSCollectionLayoutGroup.vertical(
 </string>
 				<key>leading</key>
 				<string>
       //Vertical Group inside Horizontal Group
-      let verticalGroup = NSCollectionLayoutGroup.vertical(</string>
+</string>
 				<key>trailing</key>
 				<string>          layoutSize: NSCollectionLayoutSize(
                       widthDimension: .fractionalWidth(1.0),
@@ -57,13 +57,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>270</string>
+					<string>291</string>
 					<key>StartingColumnNumber</key>
-					<string>59</string>
+					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>269</string>
+					<string>290</string>
 					<key>Timestamp</key>
-					<string>730329027.456226</string>
+					<string>730721908.039201</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -79,12 +79,12 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>
+				<string>      let verticalGroup = NSCollectionLayoutGroup.vertical(
 </string>
 				<key>leading</key>
 				<string>
       //Vertical Group inside Horizontal Group
-      let verticalGroup = NSCollectionLayoutGroup.vertical(</string>
+</string>
 				<key>trailing</key>
 				<string>          layoutSize: NSCollectionLayoutSize(
                       widthDimension: .fractionalWidth(1.0),
